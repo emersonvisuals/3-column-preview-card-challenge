@@ -1,0 +1,245 @@
+* {
+  padding:0;
+  margin:0;
+  line-height: 1.3;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+section {
+  display:flex;
+  flex-direction: row;
+  padding:50px 300px;
+  align-content: center;
+  margin-top:80px;
+}
+
+#Sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  border-radius: 10px 0 0 10px;
+  align-items: center;
+}
+
+.Sedans-logo img {
+  height:auto;
+  width:50px;
+}
+
+.Sedans-Title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2em;
+  color: hsl(0, 0%, 95%);
+  margin: 20px 0;
+}
+
+.Sedans-Paragraph {
+  font-family:Lexend Deca;
+  color:white;
+  margin-bottom:75px;
+  line-height: 2em;
+  font-size: 15px;
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.Sedans-Button {
+  background-color: transparent;
+  border: solid white 2px;
+  padding: 1em 2.5em;
+  border-radius: 2em;
+  font-family:Lexend Deca;
+  background-color: white;
+  color:hsl(31, 77%, 52%);
+}
+
+.Sedans-Button:hover {
+  background-color: transparent;
+  color:white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+
+#SUVs {
+  background-color: #016972;
+  padding: 50px;
+  align-items: center;
+}
+
+.SUVs-logo img {
+  height:auto;
+  width:50px;
+}
+
+.SUVs-Title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2em;
+  color: hsl(0, 0%, 95%);
+  margin: 20px 0;
+}
+
+.SUVs-Paragraph {
+  font-family:Lexend Deca;
+  color:white;
+  margin-bottom:75px;
+  line-height: 2em;
+  font-size: 15px;
+  color:hsla(0, 0%, 100%, 0.75);
+  width:98%;
+}
+
+.SUVs-Button {
+  background-color: transparent;
+  border: solid white 2px;
+  padding: 1em 2.5em;
+  border-radius: 2em;
+  font-family:Lexend Deca;
+  background-color: white;
+  color:#016972;
+}
+
+.SUVs-Button:hover {
+  transition:0.5s;
+  background-color: transparent;
+  color:white;
+  cursor: pointer;
+}
+
+
+#Luxury {
+  background-color: #00403F;
+  padding: 50px;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.Luxury-logo img {
+  height:auto;
+  width:50px;
+}
+
+.Luxury-Title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2em;
+  color: hsl(0, 0%, 95%);
+  margin: 20px 0;
+}
+
+.Luxury-Paragraph {
+  font-family:Lexend Deca;
+  color:white;
+  margin-bottom:75px;
+  line-height: 2em;
+  font-size: 15px;
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.Luxury-Button {
+  background-color: transparent;
+  border: solid white 2px;
+  padding: 1em 2em;
+  border-radius: 2em;
+  font-family:Lexend Deca;
+  background-color: white;
+  color:#00403F;
+}
+
+.Luxury-Button:hover {
+  background-color: transparent;
+  color:white;
+  transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1366px) {
+ 
+  section {
+    display:flex;
+    flex-direction: row;
+    padding:100px 150px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+ 
+  section {
+    display:flex;
+    flex-direction: row;
+    padding:100px 50px;
+  }
+}
+
+
+@media only screen and (max-width: 812px) {
+ 
+  section {
+    display:flex;
+    flex-direction: column;
+    padding:4em 3em;
+  }
+
+  #Sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+  }
+
+  .Sedans-Paragraph {
+    font-family:Lexend Deca;
+    color:white;
+    margin-bottom:25px;
+    line-height: 2em;
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+  }  
+
+
+
+  .SUVs-Paragraph {
+    font-family:Lexend Deca;
+    color:white;
+    margin-bottom:25px;
+    line-height: 2em;
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+  }
+
+
+  #Luxury {
+    background-color: #00403F;
+    padding: 50px;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+  }
+
+  .Luxury-Paragraph {
+    font-family:Lexend Deca;
+    color:white;
+    margin-bottom:25px;
+    line-height: 2em;
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+  }  
+
+@media only screen and (max-width: 375px) {
+
+  section {
+    display:flex;
+    flex-direction: column;
+    padding:4em 1em;
+  }
+
+}
